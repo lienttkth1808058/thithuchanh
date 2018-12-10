@@ -1,0 +1,17 @@
+body {
+    background-image: url("http://www.infographic24h.com/wp-content/uploads/2014/03/Luffy-Zoro-One-Piece-Desktop-Wallpaper-full-HD-free-download-by-Infographic-BLOG-57.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    /*background-size: 500px 700px;*/
+    background-size:cover;
+    /*background-position: center 1px;*/
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+div{
+    color: rebeccapurple;
+    text-align: center;
+}
+

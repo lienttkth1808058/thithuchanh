@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: auto;
+    margin: auto;
+    color:#FFF;
+    background-image: url("https://static.zerochan.net/Kagamine.Len.full.878474.jpg");
+    background-size: cover;
+}
+#header{
+    width: auto;
+    height: 80px;
+    background-color: #ffb701;
+}
+#menu{
+    width:auto;
+    height:80px;
+}
+/*#left{*/
+/*width:200px;*/
+/*height:400px;*/
+/*background-color: #9C6;*/
+/*float: left;*/
+/*}*/
+#content{
+}
+#right{
+    border: 1px solid black;
+    width: 450px;
+    height: 540px;
+    float: right;
+    margin: 50px;
+    background-color: #FFFFFF;
+}
+
+.logins {
+    padding: 15px;
+    margin: 10px;
+}
+.login{
+    font-size:25px;
+    text-align:center;
+    background-color:#ffb701;
+    margin: 10px;
+}
+h5{
+    line-height: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+#footer{
+    width: auto;
+    height: 60px;
+    background-color: #3d9e66;
+    clear: both;
+}
+.logo-form>img{
+    width: 171px;
+    height: 73px;
+    margin-left: 80px;
+    float: left;
+}
+.ds{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    padding: 0;
+    margin-right:20px;
+    position: relative;
+}
+.ds>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#a1{
+    background:transparent url("https://fontawesome.com/images/favicons/apple-icon-57x57.png") center right no-repeat;
+    display:inline-block;
+    padding-right:15px;
+}

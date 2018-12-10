@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Mẫu Đăng Ký</h1>
+<form action="" name="register-form">
+    <div>
+        First Name <input type="text" name="firstName">
+    </div>
+    <div>
+        LastName <input type="text" name="lastName">
+    </div>
+    <div>
+        Password <input type="password" name="password">
+    </div>
+
+    <!--<div>confirm password<input type="password" name="confirm password"></div>-->
+    <div>Address <textarea name="address" rows="10" cols="30"></textarea></div>
+    <div>Phone <input type="text" name="phone"></div>
+    <div>Avatar <input type="text" name="avatar"></div>
+    <div>Gender
+        <select name="gender">
+            <option value="1">male</option>
+            <option value="0">female</option>
+            <option value="2">other</option>
+        </select></div>
+    <div>Email <input type="text" name="email"></div>
+
+    <div>Birthday <input type="date" name="birthday" value="2000-05-13"></div>
+    <input type="button" value="Submit" name="btn-submit">
+</form>
+<script src="../js/register.js"></script>
+</body>
+</html>

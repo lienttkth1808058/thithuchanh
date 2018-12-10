@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma;
+    margin: 7px;
+}
+
+body {
+    background-image: url("https://i2.wp.com/test.khuonlambanh.com/wp-content/uploads/2017/10/phong-nen-chup-anh-go-trang-hoa-vom.jpg?fit=1109%2C739");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    height: 100px;
+    margin: -6px;
+}
+
+.body {
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-color: #1deeb454;
+    border-radius: 60px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding-top: 20px;
+    position: relative;
+}
+
+p {
+    text-align: center;
+    color: #ff6a00ad;
+    font-size: 30px;
+}
+
+.song-item {
+    border: 1px solid rgba(13, 23, 20, 0.2);
+    border-radius: 10px;
+}
+
+.song-item:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.song-index {
+    float: left;
+    width: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.song-thumbnail {
+    float: left;
+    width: 10%;
+}
+
+.song-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-infor {
+    padding-top: 1%;
+    float: left;
+    width: 20%;
+}
+
+.song-infor .song-name {
+    font-weight: bold;
+}
+
+.song-infor .song-singer {
+    font-weight: lighter;
+    color: rgba(0, 0, 23, 0.47);
+}
+
+.song-control {
+    padding-top: 3%;
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: underline;
+    float: left;
+    width: 10%;
+}
+
+.song-detail {
+    float: left;
+    width: 50%;
+    padding-top: 0.5%;
+    font-weight: bold;
+}
+.row{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

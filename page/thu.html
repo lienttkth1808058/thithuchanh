@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css1/register-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+<div class="header">
+    <div class="col-2 col-s-2"><img src="../img/logoMusic.jpg" alt=""></div>
+    <div class="col-6 col-s-6">
+        <ul>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="register-song.html">Create Song</a></li>
+            <li><a href="latent-song.html">Latent Song</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="my-song.html" title="My Song">My Song</a></li>
+        </ul>
+    </div>
+    <div class="col-3 col-s-3"><i class="fas fa-align-justify fa-3x"></i></div>
+</div>
+<div class="body col-12 col-s-12">
+    <form action="" method="post" name="register-form" class="register">
+        <h1>Mẫu Đăng Kí</h1>
+        <div class="col-5 col-s-5">
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-user-tie"></i></div>
+                <div class="=col-2 col-s-2">First Name</div>
+                <div class="col-7 col-s-7">
+                    <input type="text" id="firstName" name="firstName">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-user-tie"></i></div>
+                <div class="col-2 col-s-2">Last Name</div>
+                <div class="col-7 col-s-7">
+                    <input type="text" name="lastName">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-user-lock"></i></div>
+                <div class="col-3 col-s-3">Password</div>
+                <div class="col-6 col-s-6">
+                    <input type="password" name="password">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-phone-square"></i></div>
+                <div class="col-2 col-s-2">Phone</div>
+                <div class="col-7 col-s-7"><input type="text" name="phone">
+                    <span></span></div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-address-card"></i></div>
+                <div class="col-2 col-s-2">Address</div>
+                <div class="col-7 col-s-7">
+                    <textarea name="address" cols="20" rows="10"></textarea>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-s-6">
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-user-lock"></i></div>
+                <div class="col-2 col-s-2">Confirm Password</div>
+                <div class="col-7 col-s-7">
+                    <input type="password" name="confirmPassword">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-birthday-cake"></i></div>
+                <div class="col-2 col-s-2">Birthday</div>
+                <div class="col-7 col-s-7"><input type="date" name="birthday">
+                    <span></span></div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-mail-bulk"></i></div>
+                <div class="col-2 col-s-2">Email</div>
+                <div class="col-7 col-s-7"><input type="email" name="email">
+                    <span></span></div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-images"></i></div>
+                <div class="col-2 col-s-2">Avatar</div>
+                <div class="col-7 col-s-7"><input type="text" name="avatar">
+                    <span></span></div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-s-1"><i class="fas fa-transgender"></i></div>
+                <div class="col-2 col-s-2">Gender</div>
+                <div class="col-7 col-s-7">
+                    <select name="gender">
+                        <option value="1" name="male">Male</option>
+                        <option value="0" name="female">Female</option>
+                        <option value="2" name="other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-7 col-s-7">
+            <input type="button" name="btnSubmit" value="Submit"></div>
+        <div class="col-4 col-s-4">
+            <input type="reset" name="btn-reset" value="Reset"></div>
+    </form>
+</div>
+<div class="footer">
+    <div class="button">
+        <div><a href="#"> <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIilyXLjxrP2G_DJTBzwEg2bHjLGlxDMqjyWt2T3dyvx3UhJy"
+                alt=""></a>
+        </div>
+    </div>
+</div>
+<script src="../jss/register.js"></script>
+</body>
+</html>

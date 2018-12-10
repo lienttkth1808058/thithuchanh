@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://cdn.wallpapersafari.com/4/6/PMeCp7.jpg");
+}
+#header {
+    width: auto;
+    height: 90px;
+    background-color: deepskyblue;
+    opacity: 0.5;
+}
+#content {
+    text-align: center;
+}
+.logins {
+    padding: 15px;
+    margin: 10px;
+}
+.login{
+    font-size:25px;
+    text-align:center;
+    margin: 10px;
+}
+h5 {
+    line-height: 100px;
+    font-size: 20px;
+}
+.form-control {
+    float: left;
+    width: 84%;
+    height: 40%;
+    margin: 28px 100px;
+    background: deepskyblue;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn{
+    float: left;
+    width: 9%;
+    height: 50%;
+    margin: 35px 630px;
+    background: deepskyblue;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+#banner{
+    margin-top: -93px;
+}
+#banner>img{
+    width: auto;
+    height: 93px;
+}
+#slogan{
+    width:auto;
+    height:90px;
+}
+.logo-form>img{
+    width: 171px;
+    height: 73px;
+    margin-left: 80px;
+    float: left;
+}
+.ds{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    padding: 0;
+    margin:10px;
+    position: relative;
+}
+.ds>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+#footer{
+    width: auto;
+    height: 60px;
+    clear: both;
+}

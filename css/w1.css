@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: auto;
+    margin: auto;
+    color:#FFF;
+    background-image: url("https://static.zerochan.net/Kagamine.Len.full.878474.jpg");
+    background-size: cover;
+}
+#header{
+    width: auto;
+    height: 90px;
+    background-color: #ffb701;
+}
+#menu{
+    width:auto;
+    height:90px;
+}
+.logo-w1>img{
+    width: 171px;
+    height: 73px;
+    margin-left: 80px;
+    float: left;
+}
+.ds{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    padding: 0;
+    margin:10px;
+    position: relative;
+}
+.ds>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}

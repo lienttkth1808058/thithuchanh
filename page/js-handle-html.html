@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>* {
+        font-family: Tahoma;
+        margin: 7px;
+    }
+    .song-item {
+        border: 1px solid rgba(13,23,20,0.2);
+        border-radius: 10px;
+    }
+    .song-item:after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+    .song-index {
+        float: left;
+        width: 5%;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 1%;
+    }
+    .song-thumbnail {
+        float: left;
+        width: 10%;
+    }
+    .song-thumbnail img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .song-infor {
+        padding-top: 1%;
+        float: left;
+        width: 20%;
+    }
+    .song-infor .song-name {
+        font-weight: bold;
+    }
+    .song-infor .song-singer {
+        font-weight: lighter;
+        color: rgba(0,0,23,0.47);
+    }
+    .song-control {
+        padding-top: 3%;
+        color: dodgerblue;
+        cursor: pointer;
+        text-decoration: underline;
+        float: left;
+        width: 10%;
+    }
+
+    .song-detail {
+        float: left;
+        width: 50%;
+        padding-top: 0.5%;
+        font-weight: bold;
+
+    }</style>
+</head>
+<body style="background-color: pink;">
+<audio controls scr="http://data02.chiasenhac.com/downloads/1331/1/1330854-22cc5608/128/Under%20-%20Alex%20Hepburn%20(NhacPro.net).mp3">
+    <!--<source src="horse.ogg" type="audio/ogg">-->
+    <!--<source src="horse.mp3" type="audio/mpeg">-->
+    <!--Your browser does not support the audio tag.-->
+</audio>
+<form action="" name="song-form">
+    <div>Name <input type="text" name="name"></div>
+    <div>Thumbnail <input type="text" name="thumbnail"></div>
+    <div>Singer <input type="text" name="singer"></div>
+    <div>Author <input type="text" name="author"></div>
+    <div>Link <input type="text" name="link"></div>
+</form>
+<div id="list-song" aria-invalid="list-song"></div>
+<button title="Hello More" id="load-more">Get more song</button>
+<button title="save-song" id="save-song">upload song</button>
+<script src="../js/handle-html.js"></script>
+</body>
+</html>

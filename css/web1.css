@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: auto;
+    margin: auto;
+    color:#FFF;
+    background-image: url("https://static.zerochan.net/Kagamine.Len.full.878474.jpg");
+    background-size: cover;
+}
+#header{
+    width: auto;
+    height: 90px;
+    background-color: #ffb701;
+}
+#menu{
+    width:auto;
+    height:90px;
+}
+.row{
+    float: left;
+    background: #ffb701;
+    border-radius: 50%;
+    border: 2px solid #ffb701;
+    height: 74px;
+    margin: 45px;
+    padding: 15px;
+    text-align: center;
+    width: 74px;
+}
+.tt {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+    display: block;
+    color: #333333;
+    padding: 15px;
+}
+#right{
+    border: 1px solid black;
+    width: 450px;
+    height: 540px;
+    float: right;
+    margin-top: -214px;
+    margin-right: 65px;
+    background-color: #FFFFFF;
+
+}
+.btn{
+    float: left;
+    width: 84%;
+    height: 40%;
+    margin: 28px 37px;
+    background: #ffb702;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.logins {
+    padding: 15px;
+    margin: 10px;
+}
+.login{
+    font-size:25px;
+    text-align:center;
+    background-color:#ffb701;
+    margin: 10px;
+}
+h5{
+    line-height: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+#footer{
+    width: auto;
+    height: 60px;
+    background-color: black;
+    clear: both;
+}
+.logo-form>img{
+    width: 171px;
+    height: 73px;
+    margin-left: 80px;
+    float: left;
+}
+.ds{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    padding: 0;
+    margin:10px;
+    position: relative;
+}
+.ds>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
