@@ -11,6 +11,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="thuchanh" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -230,12 +233,12 @@
       <workItem from="1544413547779" duration="6251000" />
       <workItem from="1544426850224" duration="3521000" />
       <workItem from="1544442618188" duration="5555000" />
-      <workItem from="1544455791852" duration="5281000" />
+      <workItem from="1544455791852" duration="5553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135866000" />
+    <option name="totallyTimeSpent" value="136138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
